@@ -11,8 +11,3 @@ tts = gTTS(text=text, lang='en', slow=False)
 # Save the audio file
 tts.save("output.mp3")
 print("Audio saved as output.mp3")
-
-
-from playsound import playsound
-playsound("output.mp3")
-
